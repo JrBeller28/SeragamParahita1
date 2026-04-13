@@ -7,11 +7,13 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-red-600 text-white font-bold text-2xl">
-                P
-              </div>
-              <span className="text-2xl font-bold tracking-tight text-white">Parahita</span>
+            <Link to="/" className="flex items-center gap-3">
+              <img 
+                src="https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/parahita-logo.png" 
+                alt="Parahita Logo" 
+                className="h-12 w-auto object-contain brightness-0 invert"
+                referrerPolicy="no-referrer"
+              />
             </Link>
             <p className="text-gray-400 leading-relaxed">
               Leading garment manufacturer specializing in high-quality uniforms, corporate wear, and safety gear.

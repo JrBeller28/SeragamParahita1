@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     id: '2',
     name: 'Alfamart Polo Shirt',
     category: 'Uniform',
-    image: 'https://picsum.photos/seed/shirt2/400/500',
+    image: 'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/red-polo-stacked.png',
     badge: 'Client Badge',
     price: '$9.000',
     description: 'Casual yet professional polo shirt for Alfamart office and management staff.',
@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     id: '3',
     name: 'Safety Gear',
     category: 'Safety',
-    image: 'https://picsum.photos/seed/safety1/400/500',
+    image: 'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/safety-uniform-orange.png',
     badge: 'Client Badge',
     price: '$15.000',
     description: 'High-visibility safety vest with reflective strips for industrial and construction environments.',
@@ -108,9 +108,9 @@ export const MATERIALS: Material[] = [
 ];
 
 export const HERO_IMAGES = [
-  'https://picsum.photos/seed/factory1/1920/1080',
-  'https://picsum.photos/seed/factory2/1920/1080',
-  'https://picsum.photos/seed/factory3/1920/1080',
+  'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/white-shirt-collar.png',
+  'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/sewing-room-workers.png',
+  'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/fabric-cutting-table.png',
 ];
 
 export const LIVE_PROJECTS: LiveProject[] = [
@@ -119,14 +119,14 @@ export const LIVE_PROJECTS: LiveProject[] = [
     title: 'Pattern Cutting',
     status: 'Sewing 75k complete',
     progress: 75,
-    image: 'https://picsum.photos/seed/cutting/400/300',
+    image: 'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/fabric-cutting-table.png',
   },
   {
     id: '2',
     title: 'Sewing & Assembly',
     status: 'Sewing 75% complete',
     progress: 98,
-    image: 'https://picsum.photos/seed/sewing/400/300',
+    image: 'https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/worker-sewing-machine.png',
   },
   {
     id: '3',

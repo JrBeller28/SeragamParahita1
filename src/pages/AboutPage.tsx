@@ -14,7 +14,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <img 
-          src="https://picsum.photos/seed/factory-about/1920/600" 
+          src="https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/sewing-room-workers.png" 
           alt="About Parahita" 
           className="absolute inset-0 w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -67,7 +67,7 @@ export default function AboutPage() {
             >
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://picsum.photos/seed/sewing-about/800/600" 
+                  src="https://raw.githubusercontent.com/Antigravity-Studio/media-assets/main/garment/worker-sewing-machine.png" 
                   alt="Production" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
